@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* Initialize Variables */
+@import "project-sass/variables.scss";
+
+body {
+  margin: 0 auto !important;
+  overflow-x: hidden !important;
+  width: 1200px;
+}
+.header-middle,
+.ulockd-feature-box,
+.ulockd-fservice,
+.ulockd-service,
+.ulockd-team,
+.ulockd-about,
+.ulockd-team-two,
+.ulockd-about2,
+.our-team,
+.ulockd-contact {
+	background-color: $white-ff;
+}
+.main-slider2 .caption {
+	padding: 12% 18%;
+}
+.main-slider2 .mslider-caption {
+	padding: 13% 15% !important;
+}
+.ulockd-partner,
+.ulockd-footer2 {
+	background-color: $white-ff;
+}
+.team-one {
+	background-color: transparent;
+}
+.box-bg1 {
+	background-image: url("../images/pattern/1.png");
+}
+.box-bg1a {
+	background-image: url("../images/pattern/1.jpg");
+}
+.box-bg2 {
+	background-image: url("../images/pattern/2.png");
+}
+.box-bg2a {
+	background-image: url("../images/pattern/2.jpg");
+}
+.box-bg3 {
+	background-image: url("../images/pattern/3.png");
+}
+.box-bg3a {
+	background-image: url("../images/pattern/3.jpg");
+}
+.box-bg4 {
+	background-image: url("../images/pattern/4.jpg");
+}
+.box-bg5 {
+	background-image: url("../images/pattern/5.jpg");
+}
+.box-bg6 {
+	background-image: url("../images/pattern/6.jpg");
+}

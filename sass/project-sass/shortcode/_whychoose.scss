@@ -1,0 +1,32 @@
+/* WhyChoose Sass */
+.why-choose-slider {
+  .owl-dot {
+  	&.active,
+  	&:hover,
+  	&:focus {
+	  span {
+	  	background-color: $white-ff !important;
+	  }
+  	}
+  	span {
+	  background-color: $yellow2 !important;
+  	  border-radius: 0 !important;
+	  height: 15px !important;
+	  -webkit-transform: rotate(45deg);
+	  -ms-transform: rotate(45deg);
+	  transform: rotate(45deg);
+	  width: 15px !important;
+  	}
+  }
+  .owl-dots {
+    margin-left: 96px;
+    text-align: left !important;
+    &:hover,
+    &:active,
+    &:focus {
+	  span {
+	  	background-color: $white-ff;
+	  }
+    }
+  }
+}

@@ -1,0 +1,178 @@
+/* Forms Sass */
+
+/* APPOINTMENT FORM STYLE */
+.appointment_form{
+  background-color: $white-f3;
+  padding: 15px 35px;
+  input {
+	border-radius: 0;
+	box-shadow: none;
+	height: 40px;
+  }
+}
+.appointment_view {
+  .modal-dialog {
+    max-width: 800px; 
+    width: 100%;
+  }
+}
+.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all, 
+.ui-timepicker-list .ui-timepicker-selected:hover, 
+.ui-timepicker-list li:hover, 
+li.ui-timepicker-selected {
+  background-color: $black-22;
+  color: $white-f3;
+}
+.ulockd-apmnmnt-schedule {
+  border: 1px solid $gray-lighter;
+  padding: 10px 15px;
+  text-align: center;
+}
+table {
+  &.table {
+  	&.ulockd-one {
+  	  border: 1px solid $gray-lighter;
+  	  h3 {
+  		margin-top: 0;
+  	  }
+  	}
+  	&.ulockd-two {
+  	  border: 1px solid $gray-lighter;
+  	  h3 {
+  		margin-top: 0;
+  	  }
+  	}
+  }
+}
+.table.ulockd-one>tbody>tr>td, 
+.table.ulockd-one>tbody>tr>th, 
+.table.ulockd-one>tfoot>tr>td, 
+.table.ulockd-one>tfoot>tr>th, 
+.table.ulockd-one>thead>tr>td, 
+.table.ulockd-one>thead>tr>th {
+  text-align: center;
+}
+/* BOOKING FORM STYLE */
+.booking_form {
+  background-color: $white-f3;
+  padding: 0 35px 5px;
+}
+.booking_select,
+.booking_form input{
+  border-radius: 0;
+  box-shadow: none;
+  height: 45px;
+}
+.form-split {
+  border: 3px solid $white-ff;
+  padding: 30px 20px;
+  .form-group {
+    label {
+      color: $white-ff !important;
+    }
+  }
+}
+
+.form_control {
+  border-radius: 0;
+  box-shadow: none;
+  height: 45px
+}
+.booking_form_style1 {
+  background-color: $white-f3;
+  padding: 10px 20px 15px;
+  &.home_style {
+    background-color: rgba($white-rgb, $alpha6);
+    padding: 25px 15px;
+  }
+}
+.booking_select,
+.booking_form_style1 input {
+  border-radius: 0;
+  box-shadow: none;
+  height: 45px;
+}
+.booking_form_style1 {
+  &.style2 {
+    padding: 15px 20px;
+    input {
+      color:$white-ff;
+    }
+  }
+  .booking_form_control {
+    border-radius: 0;
+    height: 45px;
+  }
+}
+//== Donation Form styles
+.donation_form_area {
+  background-color: $white-f9;
+  padding: 15px 30px;
+  position: relative;
+  h4 {
+    margin-bottom: 15px;
+  }
+  textarea {
+    border-radius: 0;
+    box-shadow: none;
+    height: auto;
+  }
+}
+.amount-box input[type="radio"]{
+  left: 0px;
+  top: 0px;
+  visibility: hidden;
+  position: absolute;
+  opacity: 0;  
+}
+.amount-box label{
+  border: 2px solid $gray-gainsboro;
+  color: $black-44;
+  cursor: pointer;
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 5px 10px;
+  text-align: center;
+  @include transition(all 0.3s ease-in-out);
+}
+.amount-box input[type="radio"]:checked+label{
+  color: $white-ff;
+}
+/* Login/Register */
+form {
+  &.ulockd-login-form,
+  &.ulockd-reg-form {
+    background-color: $white-f6;
+    padding: 10px 30px 40px;
+  }
+}
+.ulockd-login-form,
+.ulockd-reg-form {
+  input {
+    border-radius: 0;
+    box-shadow: none;
+    height: 40px;
+  }
+}
+/* RSVP Form */
+.rsvp_forms,
+.rsvp_form2 {
+  .modal-dialog {
+    max-width: 800px; 
+    width: 100%;
+  }
+}
+.rsvp_form,
+.rsvp_form2,
+.rsvp_form3 {
+  .form-control {
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .form-group {
+    label {
+      color: $black-33;
+    }   
+  }
+}

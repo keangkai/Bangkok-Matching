@@ -1,0 +1,64 @@
+/* Pricing Table Sass */
+
+//== Pricing Table
+.ulockd-pricing {
+  background-color: $white-f7;
+}
+.ulockd-pricing-table {
+  background-color: $white-ff;
+  border: 1px solid $black-22;
+  border-radius: 5px;
+  padding: 15px 25px;
+  &:hover {
+	cursor: pointer;
+  }
+}
+.ulocked-pricing-header {
+  padding-top: 25px;
+  position: relative;
+  .title {
+  	sup {
+	  font-size: 30px;
+
+  	}
+  }
+}
+.ulocked-pricing-tag {
+  border-radius: 5%;
+  padding: 10px 20px;
+  position: absolute;
+  top: -60px;
+  span {
+	color: $white-ff;
+	font-size: 40px;
+	line-height: 1.3em;
+  }
+}
+.ulocked-pricing-details {
+  ul {
+	li {
+	  border-bottom: 1px dashed $black-22;
+	  padding: 8px;
+	  &:hover {
+	  	a {
+		  color: $black-22;
+	  	}
+	  }
+	  &:first-child {
+		border-top: 1px dashed $black-22;
+		margin-top: 40px;
+	  }
+	  &:last-child {
+		border-bottom: 1px solid transparent;
+	  }
+	  a {
+		font-size: 16px;
+		line-height: 24px;
+		@include transition(all 400ms ease-in-out);
+	  }
+	}
+  }
+  a {
+	margin-top: 20px;
+  }
+}

@@ -1,0 +1,82 @@
+/* Funfact Sass */
+
+.ulockd-ffact {
+  position: relative;
+  span {
+	bottom: -55%;
+	color: $white-ff;
+	font-size: 80px;
+	left: 0;
+	opacity: 0.1;
+	position: absolute;
+  right: 0;
+  }
+  p {
+    color: $white-ff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .timer {
+	  color: $white-ff;
+	  font-size: 30px;
+	  line-height: 24px;
+  }
+}
+//== Funfact Two
+.ulockd-ffact-two {
+  border-bottom: 2px dashed $gray-lighter;
+  border-right: 2px dashed $gray-lighter;
+  padding: 0 0 15px;
+  position: relative;
+  z-index: $zindex-ulockd-ffact-two;
+  @include transition(all 0.4s ease-in-out 0s);
+  &:hover {
+	  cursor: pointer;
+	  margin-top: -15px;
+  }
+  .ulockd-icon-let {
+	  color: $white-ff;
+	  font-size: 70px;
+	  padding: 16px 18px;
+  }
+  h3 {
+	  color: $white-ff;
+	  font-weight: 400;
+  }
+  .timer {
+    color: $white-ff;
+    font-size: 36px;
+    line-height: 1.2em;
+    font-weight: 500;
+  }
+}
+.ulockd-ffact-one {
+  background-color: $white-fa;
+  padding: 25px 0;
+  position: relative;
+  z-index: $zindex-ulockd-ffact-one;
+  @include transition(all 0.4s ease-in-out);
+  span {
+	  font-size: 48px;
+  }
+  .ulockd-icon-let {
+	  color: $white-ff;
+	  font-size: 60px;
+	  line-height: 24px;
+	  padding: 16px 17px;
+  }
+  p {
+    color: $black-44;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .timer {
+	  color: $gray-darkgrey;
+	  font-size: 24px;
+  }
+  &:hover {
+    margin-top: -5px;
+  }
+}

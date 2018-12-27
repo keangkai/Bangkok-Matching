@@ -1,0 +1,61 @@
+/* Feature Sass */
+
+.feature-box {
+  position: relative;
+  img {
+    height: 100%;
+  }
+  h3 {
+    color: $white-ff;
+    position: relative;
+    @include transition(all 0.3s ease-in-out 0s);
+  }
+  p {
+    color: $white-ff;
+  }
+  a {
+    &:hover {
+      color: $white-ff;
+    }
+  }
+  .overlay {
+    bottom: 0;
+    left: 0;
+    padding: 25px 25px 0px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+.unlock-hexagon {
+  left: 0;
+  position: absolute;
+  top: 0;
+  .hexagon {
+    background-color: #FCD846;
+    border: 1px solid #454545;
+    height: 90px; 
+    position: relative;
+    padding-top: 10px;
+    text-align: center;
+    width: 160px;
+    &:before,
+    :after {
+      border-left: 80px solid transparent;
+      border-right: 80px solid transparent;
+      content: "";
+      left: 0;
+      position: absolute;
+      width: 0;
+    }
+    &:before {
+      bottom: 100%;
+      border-bottom: 48px solid #FCD846;
+    }
+    &:before {
+      border-top: 48px solid #FCD846;
+      top: 100%;
+      width: 0;
+    }
+  }
+}

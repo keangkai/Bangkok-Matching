@@ -1,0 +1,38 @@
+/* Partner Sass */
+
+.ulockd-partner {
+  border-bottom: 1px solid $gray-lightgrey;
+  border-top: 1px solid $gray-lightgrey;
+  padding: 50px 0;
+}
+.ulockd-partner-thumb {
+  &:hover {
+  	img {
+  	  cursor: pointer;
+  	}
+  }
+}
+
+/* Office Location */
+.office-location {
+  h3 {
+  	margin-top: 0;
+  }
+  li {
+  	a {
+  	  font-size: 16px;
+  	  line-height: 24px;
+  	}
+  }
+}
+
+/* Gift Company */
+.gift-company {
+  .thumb {
+	border: 1px solid $gray-gainsboro;
+	background-color: $white-fa;
+	cursor: pointer;
+	padding: 10px;
+	margin: 0 2px;
+  }
+}

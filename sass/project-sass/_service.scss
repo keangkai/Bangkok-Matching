@@ -1,0 +1,435 @@
+/* Service Sass */
+
+//== First Service
+.ulockd-service-two {
+  z-index: 1;
+  &:before {
+	background-color: rgba($white-rgb, $alpha8);
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+  }
+}
+.service-col {
+  background-color: $white-ff;
+  text-align: center;
+  @include transition(all 0.3s ease-in-out 0s);
+  .srvc-icon {
+	color: $white-ff;
+	font-size: 30px;
+	padding: 8px 13px;
+  } 
+  .srvc-details {
+	padding: 10px 15px;
+	h3 {
+	  font-size: 22px;
+	  @include transition(all 0.2s ease-in-out 0s);
+	}
+  }
+}
+//== Service Details
+.ulockd-pd-content {
+  h3 {
+	color: $black-33;
+    margin-bottom: 15px;
+  }
+}
+.ulockd-all-service {
+  margin-top: 15px;
+  a {
+	  padding: 10px 25px;	
+    border-radius: 0;
+    margin-bottom: 5px;
+	  &.active {
+	    background-color: $black-22;
+	    border-color:  $black-22;
+	  }
+  }
+}
+.list-group-item {
+  &.active {
+  background-color: $black-22; 
+    &:focus,
+    &:hover, {      
+      background-color: $black-22; 
+    }
+  }
+} 
+.ulockd-inr-brochure {
+  background-color: $white-f5;
+  margin-top: 35px;
+  padding: 10px 30px;
+  p {
+	  margin-bottom: 22px;
+  }
+  ul {
+  	li {
+  	  a {
+		    font-size: 14px;
+		    line-height: 24px;
+		    margin-bottom: 10px;
+		    text-transform: uppercase;
+	    }
+  	}
+  }
+}
+//== Feature Icon Box
+.feature-service {
+  background-color: $white-f9;
+}
+.icon_box {
+  padding: 20px 0 0;
+  .icon {
+    margin-top: 6px;
+    @include transition(all 0.3s ease-in-out 0s);
+    i {
+      font-size: 24px;
+      height: 55px;
+      line-height: 56px;
+      text-align: center;
+      width: 55px;
+    }
+  }
+  &:hover {
+    .icon {
+      -webkit-transform: scale(1.4);
+      -moz-transform: scale(1.4);
+      -ms-transform: scale(1.4);
+      -o-transform: scale(1.4);
+      transform: scale(1.4);
+      i {
+        color: $white-ff !important;
+        @include transition(all 0.2s ease-in-out 0s);
+      }
+    }
+  }
+  .ib_details {
+    margin-left: 75px;
+    &.left {
+      margin-right: 75px;
+      margin-left: 0;
+    }
+    h4 {
+      margin-top: 0;
+    }
+  }
+}
+//== fcolmn
+.fslmn-one {
+  border: 1px solid $gray-gainsboro;
+  position: relative;
+  @include transition(all 0.5s ease-in-out);
+  &:hover {
+    cursor: pointer;
+  }
+  .caption {
+    padding: 20px 15px;
+  }
+  h3 {
+    margin-top: 0;
+  }
+  .btn {
+    padding: 5px 15px;
+  }
+}
+//== Service Pagination
+.pagination>.active>a {
+  color: #fff !important;
+}
+
+//== Features Tab
+ul {
+  &.features-tab {
+    border: none;
+    li {
+      a {
+        border: 1px solid $gray-gainsboro;
+        border-radius: 0;
+        margin-left: 5px;
+        margin-bottom: 25px;
+        position: relative;
+        @include transition(all 0.3s ease-in-out);
+      }
+      &.active {
+        a {
+          &:before {
+            content: "";
+            height: 20px;
+            position: absolute;
+            top: 31px;
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+            width: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+.features-tab>li.active>a,
+.features-tab>li.active>a:focus, 
+.features-tab>li.active>a:hover {
+  color: $black-33;
+}
+//== Feature Services
+.our-service {
+  background-color: $white-f9;
+}
+.fstory {
+  position: relative;
+}
+.media-heading {
+  @include transition(all 0.3s ease-in-out);
+}
+form {
+  &.volunteer-reg-form {
+    background-color: $white-f9;
+    padding: 10px 15px 20px;
+    input {
+      border-radius: 0;
+      box-shadow: none;
+      height: 45px;
+    }
+  }
+}
+//== Our Project
+.pb-details {
+  h3 {
+    margin-top: 0;
+  }
+}
+
+//== Second Service
+.ulockd-title-icon {
+  color: $black-22;
+  font-size: 90px;
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  right: 0;
+  top: -79px;
+  z-index: 0;
+}
+.ulockd-service-three {
+  background-color: $white-f9;
+}
+.ficon-box {
+  background-color: $white-ff;
+  border: 1px solid $gray-gainsboro;
+  padding: 15px 25px;
+  position: relative;
+  z-index: 999;
+  &:hover {
+    cursor: pointer;
+    span {
+      color: $white-ff !important;
+      transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+    }
+  }
+  .ficon {
+    border: 1px solid $gray-gainsboro;
+    font-size: 48px;
+    line-height: 1.3em;
+    margin-top: 0px;
+    padding: 0 15px;
+    position: fixed;
+    @include transition(all 0.4s ease-in-out 0s);
+    h5 {
+      letter-spacing: 1px;
+      margin-bottom: 0;
+      @include transition(all 0.2s ease-in-out 0s);
+      text-transform: uppercase;
+    }
+  }
+}
+.fib-details {
+  display: inline-block;
+  margin-top: 65px;
+}
+
+//== Feature Service Section
+.ulockd-dtitle {
+  margin-bottom: 70px;
+  position: relative;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.fservice-box {
+  position: relative;
+  .db-thumb {
+    position: relative;
+    overflow: hidden;
+    img {
+      border-radius: 20px;
+    }
+  }
+  h3 {
+    margin-top: 0;
+    @include transition(all 0.2s ease-in-out 0s);
+  }
+  .db-details { 
+    padding: 10px 0;
+    button {
+      padding: 5px 20px;
+    }
+    &.inner {
+      padding: 15px 20px;
+    }
+  }
+}
+/* Case Study */
+.image-box {
+  position: relative;
+  .cb-thumb {
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .cb-overlay {
+    bottom: 0;
+    border-bottom: 3px solid $white-ff;
+    height: 100%;
+    padding: 13% 15px;
+    position: absolute;
+    text-align: center;
+    top: -100%;
+    @include transition(all 0.4s ease-in-out 0s);
+    width: 100%;
+    span {
+      border: 3px solid $white-ff;
+      bottom: 10px;
+      color: $white-ff;
+      font-size: 36px;
+      line-height: 1.3em;
+      padding: 0 10px;
+      right: 10px;
+    }
+  }
+  &:hover {
+    cursor: pointer;
+    .cb-overlay {
+      top: 0;
+    }
+  }
+  h3 {
+    color: $white-ff; 
+    @include transition(all 0.2s ease-in-out 0s);
+  }
+  .cb-details {
+    button {
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+  }
+}
+/* Image Box */
+
+figure {
+  &.img-box {
+    border-radius: 20px;
+    color: $white-ff;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    &:hover {
+      cursor: pointer;
+      img {
+        opacity: 0.15;
+      }
+      figcaption {
+        &:before {
+          background: rgba($white-rgb, $alpha0);
+          top: 30px;
+          bottom: 30px;
+          opacity: 1;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+        }
+        h2 {
+          opacity: 1;
+          -webkit-transform: translate3d(0%, 0%, 0);
+          transform: translate3d(0%, 0%, 0);
+          -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+        }
+        p {
+          opacity: 0.9;
+          -webkit-transition-delay: 0.6s;
+          transition-delay: 0.6s;
+        }
+      }
+    }
+    * {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    img {
+      opacity: 1;
+      width: 100%;
+      -webkit-transition: opacity 0.35s;
+      transition: opacity 0.35s;
+    }
+    figcaption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 3em 3em;
+      width: 100%;
+      height: 100%;
+      &:before {
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        bottom: 50%;
+        left: 30px;
+        border-top: 1px solid rgba($white-rgb, $alpha8);
+        border-bottom: 1px solid rgba($white-rgb, $alpha8);
+        content: '';
+        opacity: 0;
+        background-color: $white-ff;
+        -webkit-transition: all 0.4s;
+        transition: all 0.4s;
+        -webkit-transition-delay: 0.6s;
+        transition-delay: 0.6s;
+      }
+    }
+    h2,
+    p {
+      margin: 0 0 5px;
+      opacity: 0;
+      -webkit-transition: opacity 0.35s, 
+      -webkit-transform 0.35s;
+      transition: opacity 0.35s,
+      -webkit-transform 0.35s,
+      -moz-transform 0.35s,
+      -o-transform 0.35s,
+      transform 0.35s;
+    }
+    h2 {
+      color: $white-ff;
+      font-weight: 300;
+      text-transform: uppercase;
+      -webkit-transform: translate3d(0%, 50%, 0);
+      transform: translate3d(0%, 50%, 0);
+      -webkit-transition-delay: 0.3s;
+      transition-delay: 0.3s;
+    }
+    p {
+      font-weight: 200  ;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+    }
+  }
+}

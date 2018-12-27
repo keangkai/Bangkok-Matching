@@ -1,0 +1,45 @@
+/* Divider Sass */
+.ulockd-frst-divider {
+  overflow-x: hidden;
+  position: relative;
+  &:before {
+	  background-color: rgba($black-rgb, $alpha5);
+	  content: "";
+	  height: 100%;
+	  position: absolute;
+	  top: 0;
+	  width: 100%;
+  }
+  .hvr-overline-from-center {
+    &:before{
+      background-color: $white-ff;
+    }
+  }
+}
+.ulockd-divider {
+  padding: 40px 0;
+}
+/* Background Video */
+.video-section {
+  .pattern-overlay {
+    background-image: url('../images/resource/videooverlay1.png');
+    background-color: rgba($black-rgb, $alpha3);
+    padding: 110px 0 25px;
+    min-height: 880px; 
+    /* Incase of overlay problems just increase the min-height*/
+  }
+  h1 {
+    font-size: 72px;
+    text-transform: uppercase;
+    margin: 15% auto 0px;
+  }
+  h3 {
+    margin: 0px auto 15px;
+  }
+  .buttonBar {
+    display:none;
+  }
+}
+.video-button {
+  padding: 3v0px 0;
+}
